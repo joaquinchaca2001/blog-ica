@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Lugares Turísticos de Ica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Ica, Perú</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#destinos">Destinos Turísticos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <h2>Explora Ica</h2>
+            <p>Ica es una región llena de maravillas naturales y culturales. Desde las dunas del desierto hasta las bodegas de vino, hay algo para todos los gustos.</p>
+        </section>
+        <section id="destinos">
+            <h2>Destinos Turísticos</h2>
+            <article>
+                <h3>Huacachina</h3>
+                <img src="huacachina.jpg" alt="Huacachina">
+                <p>La Huacachina es un oasis natural en el desierto de Ica, conocido por sus espectaculares paisajes y deportes de aventura como el sandboarding.</p>
+            </article>
+            <article>
+                <h3>Las Líneas de Nazca</h3>
+                <img src="nazca.jpg" alt="Líneas de Nazca">
+                <p>Estas antiguas geoglifos son uno de los misterios más fascinantes del Perú, visibles solo desde el aire y rodeadas de teorías sobre su origen y propósito.</p>
+            </article>
+            <article>
+                <h3>Bodegas de Vino</h3>
+                <img src="bodegas.jpg" alt="Bodegas de vino">
+                <p>Ica es famosa por sus bodegas de vino y pisco. Un recorrido por estas bodegas ofrece degustaciones y una inmersión en la historia de estas bebidas tradicionales.</p>
+            </article>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog de Lugares Turísticos de Ica</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
